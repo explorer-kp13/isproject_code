@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+  font-family: sans-serif;
+  color: #333;
+  background-color: #f3e4d7;
+}
+
+/* height of the container */
+.leaflet-container {
+  height: 90vh;
+  width: 90%;
+  border-radius: 2rem;
+}
+
+.cluster-icon {
+  background-color: #333;
+  height: 2em;
+  width: 2em;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  box-shadow: 0 0 0px 5px #fff;
+}
+
+/* styles.css */
+/* Add this CSS to make the map container full width */
+.map-container {
+  width:60vw;
+  height: 40vh; /* Adjust height as needed */
+  border-radius: 2rem;
+}
+
+/* Add this CSS to make the button container align horizontally */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+/* Add any other custom styles as needed */
+
+
+
+
+/* styles.css */
+
+/* Style for the main container of the app */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Style for the container of the buttons */
+
+.product-info {
+  margin-bottom: 5px;
+  padding: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.product-value {
+  background-color: #cae2f6;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* .product-info:nth-child(even) {
+  background-color: #e9e9e9;
+} */
+
+.product-info:hover {
+  transform: translateY(-3px);
+  transition: transform 0.3s ease;
+}
+
+.quantity-container {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.quantity-input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  width: 40px;
+  text-align: center;
+}
+
+.parent
+{
+  display: flex;
+}
+.child
+{
+  padding: 10px;
+  margin: 10px;
+  height: 90vh;
+  width: 15vw;
+  background-color: #fffbeb;
+}
